@@ -34,7 +34,7 @@ LIVE: https://html-css-first-project-1.onrender.com
 
 Färger och layout planerades i Figma:
 
-![Figma-skiss](https://github.com/gozzde09/HTML-CSS-First-project/blob/main/colors%20%26%20skiss/skiss-figma.png)
+![Figma-skiss](https://www.figma.com/design/nFgMbtnXOdurbHGIbSlD7d/stat?node-id=1-204&p=f&t=tg3vrh4hNypV2zRj-0)"Figma"
 
 ---
 
@@ -42,7 +42,7 @@ Färger och layout planerades i Figma:
 
 Grundläggande **SEO-optimeringar** implementerades och gav goda resultat.
 
-![Lighthouse]
+![Lighthouse](Lighthouse.png)
 
 ---
 
