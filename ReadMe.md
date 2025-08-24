@@ -5,7 +5,7 @@ Detta är mitt första projekt på Javascript utbildningen. Webbplatsen är en *
 LIVE: https://html-css-first-project-1.onrender.com
 (Iconer kan laddas senare, testa ladda om sidan eller navigera i sidan.)
 
-![Screenhoot](Screenshoot.png)
+![Screenshoot](Screenshoot.png)
 
 ---
 
@@ -34,9 +34,7 @@ LIVE: https://html-css-first-project-1.onrender.com
 
 ## Design
 
-Färger och layout planerades i Figma:
-
-![Figma-skiss](https://www.figma.com/design/nFgMbtnXOdurbHGIbSlD7d/stat?node-id=1-204&p=f&t=tg3vrh4hNypV2zRj-0)
+Färger och layout planerades i Figma: ![Figma-skiss](https://www.figma.com/proto/nFgMbtnXOdurbHGIbSlD7d/stat?node-id=1-204&t=tg3vrh4hNypV2zRj-1)
 
 ---
 
