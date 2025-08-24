@@ -1,10 +1,11 @@
-# Myndighetssida – Skolprojekt
+# State Website
 
-Detta är mitt första projekt på JavaScript-utbildningen.
-Webbplatsen är en **låtsassida för en myndighet** där användaren kan hitta information och boka tid via en enkel e-ansökningssida. Tanken är att samla allt på ett ställe, liknande hur invånare i Turkiet använder e-stat-plattformen för myndighetstjänster.
+This is my first project at the school.
+The website is a mock state site where users can find information and book appointments through a simple e-application page. The idea is to gather everything in one place, similar to how citizens in Turkey use the e-stat platform for government services.
 
-LIVE: https://html-css-first-project-1.onrender.com
-(Iconer kan laddas senare, testa ladda om sidan eller navigera i sidan.)
+DEMO : https://html-css-first-project-1.onrender.com
+
+(Icons may load later; try refreshing the page or navigating around.)
 
 ![Screenshoot](Screenshoot.png)
 
@@ -12,41 +13,38 @@ LIVE: https://html-css-first-project-1.onrender.com
 
 ## Funktioner
 
-- Tre tillgängliga sidor med grundläggande navigering.
-- Länkar som fungerar:
+- Three accessible pages with basic navigation.
+- Working links:
   - **Logga in**
   - **Boka tid nu**
   - **Hemsidans logotyp**
-- Vissa knappar är medvetet inaktiva och fungerar endast som visuella element.
+- Some buttons are inactive and serve as visual elements only.
 
 ---
 
-## Teknik och implementation
+## Technology and Implementation
 
-- **Endast HTML och CSS** – inga ramverk, JavaScript eller externa bibliotek (t.ex. ikoner eller API:er).
-- **Flexbox** används för layout.
-- **Färgpalett med hög kontrast** för att uppfylla **WCAG AA-kraven**.
-- Validerad i **W3C:s tjänster** för både HTML och CSS (inga fel).
-- **Responsiv design**:
-  - Webbplatsen och bilderna anpassar sig till olika skärmstorlekar.
-  - Under **610px används inga bilder**, inspirerat av hur flera statliga webbplatser hanterar mobila vyer.
+- HTML and CSS only – no frameworks, JavaScript, or external libraries (e.g., icons or APIs).
+- Flexbox is used for layout.
+- High-contrast color palette to meet WCAG AA standards.
+- Validated with W3C services for both HTML and CSS (no errors or warnings).
+- Responsive design:
+ - Website and images adapt to different screen sizes.
+ - Below 610px, images are hidden, inspired by how several government sites handle mobile views.
 
 ---
 
 ## Design
-
-Färger och layout planerades i [Figma](https://www.figma.com/design/nFgMbtnXOdurbHGIbSlD7d/stat?node-id=1-204&p=f&t=tg3vrh4hNypV2zRj-0)
+Colors and layout were planned in [Figma](https://www.figma.com/design/nFgMbtnXOdurbHGIbSlD7d/stat?node-id=1-204&p=f&t=tg3vrh4hNypV2zRj-0)
 
 ---
 
 ## SEO
-
-Grundläggande **SEO-optimeringar** implementerades och gav goda resultat.
+Basic SEO optimizations were implemented with good results.
 
 ![Lighthouse](Lighthouse.png)
 
 ---
 
-## Sammanfattning
-
-Projektet visar hur man kan bygga en **tillgänglig och responsiv webbplats** med fokus på enkelhet, färgkontrast och struktur – utan externa ramverk eller bibliotek.
+## Summary
+The project demonstrates how to build an accessible and responsive website focusing on simplicity, color contrast, and structure – without external frameworks or libraries.
