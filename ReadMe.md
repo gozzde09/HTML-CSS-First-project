@@ -34,7 +34,7 @@ LIVE: https://html-css-first-project-1.onrender.com
 
 ## Design
 
-Färger och layout planerades i Figma: ![Figma-skiss](https://www.figma.com/proto/nFgMbtnXOdurbHGIbSlD7d/stat?node-id=1-204&t=tg3vrh4hNypV2zRj-1)
+Färger och layout planerades i [Figma](https://www.figma.com/design/nFgMbtnXOdurbHGIbSlD7d/stat?node-id=1-204&p=f&t=tg3vrh4hNypV2zRj-0)
 
 ---
 
