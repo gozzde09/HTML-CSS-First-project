@@ -1,6 +1,9 @@
 # Myndighetssida – Skolprojekt
 
 Detta är mitt första projekt på Javascript utbildningen. Webbplatsen är en **låtsassida för en myndighet** där användaren kan hitta information och boka tid via en enkel e-ansökningssida.
+LIVE: https://html-css-first-project-1.onrender.com
+(Iconer kan laddas senare, testa ladda om sidan eller navigera i sidan.)
+![Screenhoot](Screenshoot.png)
 
 ---
 
@@ -31,7 +34,7 @@ Detta är mitt första projekt på Javascript utbildningen. Webbplatsen är en *
 
 Färger och layout planerades i Figma:
 
-![Figma-skiss](colors & skiss/skiss-figma.png "Skiss")
+![Figma-skiss](https://github.com/gozzde09/HTML-CSS-First-project/blob/main/colors%20%26%20skiss/skiss-figma.png)
 
 ---
 
