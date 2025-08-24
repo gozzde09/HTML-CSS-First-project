@@ -1,0 +1,504 @@
+/*
+==================================================================================
+                                    Globala regler
+==================================================================================
+*/
+@font-face {
+  font-family: "RobotoSlab";
+  src: url(fonts/Roboto_Slab/RobotoSlab-Black.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto/Roboto-Medium.ttf) format("truetype");
+}
+
+/*
+==================================================================================
+BODY + RUBRIKER + IMG
+==================================================================================
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  background-color: #fefefe;
+  color: #494949;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main,
+#introduction {
+  background: linear-gradient(to top, #772683, 5%, #f1dbf3, #fefefe);
+}
+
+h1,
+h2,
+h3,
+.subrubrik {
+  font-size: 1.7em;
+  font-family: "RobotoSlab", "Open Sans", Helvetica, sans-serif;
+  color: #2f2f2f;
+  text-align: center;
+  margin: 30px 0 0;
+}
+
+#services1 h2,
+#sign h2,
+h3 {
+  color: #772683;
+  margin: 10px 0 0;
+  font-size: 1.2em;
+}
+
+#intro,
+.subrubrik {
+  font-size: 1.2em;
+}
+
+aside h2 {
+  color: #fefefe;
+  text-shadow: 4px 4px 4px #772683;
+}
+
+.subrubrik,
+h1 {
+  text-align: left;
+}
+
+picture img {
+  display: none;
+}
+
+p,
+.subrubrik {
+  margin: 10px 0;
+}
+
+/* =============== Länk och Button dekoration i Header Footer Aside ===============*/
+.menu,
+.social-menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.menu {
+  margin-top: 0px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  color: #2f2f2f;
+  font-size: 0.9em;
+}
+
+a {
+  color: #2f2f2f;
+  text-decoration: none;
+}
+
+.knapp a,
+.login a {
+  color: white;
+}
+
+.knapp a:focus,
+.knapp a:hover,
+.knapp:hover,
+#länkar a:hover {
+  color: #772683;
+  cursor: pointer;
+  background-color: #d1bad4;
+}
+
+#länkar a:hover {
+  background-color: #fefefe;
+}
+.knappar,
+.login,
+button {
+  background-color: #772683;
+  color: #fefefe;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 45px;
+  text-align: center;
+}
+/*
+==================================================================================
+HEADER + FOOTER
+==================================================================================
+*/
+header,
+footer {
+  height: auto;
+}
+.line {
+  height: 17px;
+  background: #772683;
+  color: #fefefe;
+  text-align: center;
+  font-size: 0.9em;
+}
+.logo {
+  height: 80px;
+  margin: -40px 10px 10px;
+}
+
+.fa {
+  padding: 5px;
+}
+.login {
+  padding: 6px;
+  margin: 15px 15px 10px;
+}
+
+.logoP {
+  display: inline-block;
+  background-color: #d1bad4;
+  border-radius: 10px;
+  border: 1px dotted #772683;
+  font: italic 800 0.9em sans-serif;
+  color: #2f2f2f;
+  margin: 0 15px;
+}
+
+.logoP > img {
+  vertical-align: bottom;
+}
+
+span {
+  text-shadow: 1px 1px 1px #772683;
+}
+
+/*
+==================================================================================
+MAIN-INTRODUCTION
+==================================================================================
+*/
+#introduction {
+  margin: 10px auto;
+  padding: 5px 20px 100px;
+}
+
+/*
+==================================================================================
+SERVICES 1 & 2
+==================================================================================
+*/
+#services1 {
+  margin: -90px auto 40px;
+}
+
+#services2,
+aside {
+  margin: 60px auto 40px;
+}
+
+#services1 img {
+  width: 35px;
+  height: 40px;
+  vertical-align: middle;
+  color: white;
+  background-color: #772683;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.service-item1,
+.service-item2 {
+  border-radius: 27px;
+  background: #fff;
+  padding: 15px;
+  margin: 30px 30px 60px;
+  box-shadow: 8px 8px 0px 0px #772683;
+}
+
+.service-item1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.icons {
+  background: #772683;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+#intro h1,
+.service-item2 h3,
+.icons,
+#länkar ul li {
+  display: inline-block;
+}
+
+/*
+==================================================================================
+ASIDE + Info-del
+==================================================================================
+*/
+#info {
+  border-radius: 14px;
+  background: #ececec;
+  padding: 3px;
+  margin-top: 29px;
+  color: black;
+}
+
+#alert,
+#länkar img {
+  border-radius: 14px 0px 0px 14px;
+  background: #dbafe1;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+#länkar img {
+  background: #ececec;
+}
+
+#länkar ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px auto;
+}
+
+#länkar ul li {
+  border-radius: 27px;
+  background: #ececec;
+  box-shadow: 3px 3px 3px #772683;
+  padding: 5px 10px;
+  margin: 5px 20px;
+  font: italic 0.8em "RobotoSlab", "Open Sans", Helvetica, sans-serif;
+}
+
+/*
+==================================================================================
+                                 BOKNINGSSIDA
+==================================================================================
+*/
+
+#form h2 {
+  background: #772683;
+  box-shadow: 0 0 15px #c8a6ce;
+  color: #fefefe;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 0;
+  width: 100%;
+}
+
+#form {
+  padding: 10px;
+  margin: 30px auto;
+  max-width: 75%;
+  border: 1px dotted #772683;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #772683;
+  align-self: center;
+}
+
+label,
+input {
+  display: block;
+  color: #333;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+input[type="text"],
+input[type="tel"],
+select,
+#datum {
+  font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+  background-color: #fefefe;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label[for="reminder"],
+#reminder {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+#submit {
+  display: block;
+  font-size: 1.2em;
+  margin: 15px auto;
+  border: 1px dotted #772683;
+}
+
+/*
+==================================================================================
+                                 INLOGGNINGSSIDA
+==================================================================================
+*/
+
+#sign h1 {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  box-shadow: 6px 6px 0px 0px #772683;
+  border-radius: 27px 0px 0px 27px;
+  margin: auto;
+  padding-right: 20px;
+  font-size: 1em;
+}
+
+#sign {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 30px auto;
+  /* border: 1px dotted #772683;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #772683;
+  width:75%; */
+}
+
+#sign img {
+  width: 100px;
+  height: 100%;
+  margin-right: 20px;
+  border-radius: 27px 0px 0px 27px;
+}
+
+#sign h2 {
+  margin-top: 30px;
+  font-size: 1.5em;
+}
+
+#bankid-val li {
+  display: block;
+  text-align: center;
+  background-color: #fefefe;
+  width: 40%;
+  padding: 10px;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0px 0px #772683;
+}
+
+/*
+==================================================================================
+                                 MEDIAFRÅGOR
+==================================================================================
+*/
+
+/* RESPONSIV 1 */
+@media screen and (min-width: 610px) {
+  #introduction {
+    display: flex;
+  }
+
+  #intro {
+    padding: 0 50px 0 15px;
+  }
+
+  picture {
+    margin: 30px auto;
+    width: 100%;
+    align-self: center;
+  }
+
+  picture img {
+    display: block;
+    box-shadow: 8px 8px 0px 0px #772683;
+    border-radius: 10px;
+    aspect-ratio: 1 / 1;
+    max-width: 400px;
+    min-width: 300px;
+    width: 100%;
+  }
+
+  #intro > .icons {
+    display: none;
+  }
+
+  .icons {
+    width: 45px;
+    height: 45px;
+  }
+
+  .logo {
+    height: 100px;
+    margin: -40px 0 10px 15px;
+  }
+
+  footer + .line {
+    margin-top: 10px;
+  }
+
+  #services1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .service-item2 {
+    display: grid;
+    padding: 0;
+    box-shadow: 8px 6px 0px 0px #772683;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: " icon text";
+  }
+
+  .icons {
+    grid-area: icon;
+    border-radius: 27px 0px 0px 27px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .symbol {
+    padding: 40px;
+  }
+
+  .text {
+    grid-area: text;
+    padding: 20px;
+  }
+}
+
+/* RESPONSIV 2 */
+@media (min-width: 900px) {
+  body {
+    font-size: 1.2em;
+  }
+}
+
+/* RESPONSIV 3 */
+@media (min-width: 1000px) {
+  #intro {
+    margin-right: 100px;
+  }
+
+  #introduction,
+  #services1 {
+    max-width: 95%;
+  }
+
+  #services2 {
+    max-width: 85%;
+  }
+}

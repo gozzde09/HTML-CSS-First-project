@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8" >
+  <meta name="description"
+    content="Med e-statsporten kan du komma åt dina uppgifter och dokument från en enda punkt och slutföra dina ansökningsprocesser snabbt." >
+  <meta name="author" content="Gözde Akgün" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" >
+  <link rel="stylesheet" href="index.css" >
+  <title>E-statsporten: Statens genväg.</title>
+</head>
+
+<body>
+  <div class="line"></div>
+  <!-- HEADER -->
+  <header>
+    <nav class="menu">
+      <ul>
+        <li><i class="fa fa-globe"></i> English</li>
+        <li class="login knapp"><a href="login.html">Logga in </a></li>
+      </ul>
+    </nav>
+    <div>
+      <a href="index.html"><img class="logo" src="icons/logo.svg" alt="Statens Servicenters Logo" ></a>
+    </div>
+    <div class="logoP">
+      <img src="icons/nav.svg" alt="arrow" > E-statsporten: Statens genväg.
+    </div>
+  </header>
+
+  <main>
+    <section id="introduction">
+      <div id="intro">
+        <img class="icons symbol" src="icons/support-boka.svg" alt="symbol om att boka tid och få support" >
+        <h1>Boka tid för hjälp</h1>
+        <p>
+          Om du behöver digital hjälp med att använda en e-tjänst, boka gärna
+          en tid hos Statens Servicecenters kontor.
+        </p>
+        <p>
+          På servicekontoren träffar du handläggare som kan hjälpa dig att
+          ansöka, ge dig information om ditt ärende eller skriva ut intyg och
+          bevis. Du kan också lämna in handlingar.
+        </p>
+        <p>
+          För boka tid, fylla gärna i formulär nere. Glöm inte att signera din
+          bokning med Bank-ID.
+        </p>
+      </div>
+      <picture>
+        <source media="(min-width:900px)" srcset="bilder/boka1200.png" >
+        <source media="(min-width:700px)" srcset="bilder/boka800.png" >
+        <source media="(min-width:550px)" srcset="bilder/boka400.png" >
+        <img src="bilder/boka400.png" alt="bild på en bärbar laptop för e-ansökningar" >
+      </picture>
+    </section>
+
+    <!-- FORMULÄR -->
+    <form action="boka.php" method="post">
+      <fieldset id="form">
+        <h2>Bokningsformulär</h2>
+
+        <label for="fullnamn">Fullständigt namn:</label>
+        <input type="text" id="fullnamn" name="fullnamn" required >
+
+        <label for="telefon">Telefonnummer:</label>
+        <input type="tel" id="telefon" name="telefon" required >
+
+        <label for="kalender">Välj kontor:</label>
+        <select id="kalender" name="kalender">
+          <option value="kalender1">Nordstan</option>
+          <option value="kalender2">Järntorget</option>
+          <option value="kalender3">Gamla Staden</option>
+          <option value="kalender3">Västra Frölunda</option>
+        </select>
+
+        <label for="subject">Vad behöver du hjälp med?</label>
+        <select id="subject" name="subject">
+          <option>Skatteverket</option>
+          <option>Migrationsverket</option>
+          <option>Försäkringskassan</option>
+          <option>Arbetsförmedlingen</option>
+          <option>Pensionsmyndigheten</option>
+          <option>Övrigt</option>
+        </select>
+
+        <label for="datum">Välj datum: <input type="date" id="datum" name="datum" >
+        </label>
+        <label>Välj tid:
+          <select name="tid">
+            <option value="09:00">09:00</option>
+            <option value="10:00">10:00</option>
+            <option value="11:00">11:00</option>
+            <option value="10:00">13:00</option>
+            <option value="11:00">14:00</option>
+          </select>
+        </label>
+
+        <input id="reminder" name="reminder" type="checkbox" >
+        <label for="reminder"> Jag vill få påminnelse.</label>
+        <button id="submit" type="submit">Godkänna med Bank-ID</button>
+      </fieldset>
+    </form>
+
+    <!-- ASIDE -->
+    <aside>
+      <h2>Myndigheternas Webbplatser</h2>
+      <nav id="länkar">
+        <ul>
+          <li>
+            <img src="icons/arrowlink.png" alt="Skatteverkets webbplats" ><a
+              href="https://www.skatteverket.se/">Skatteverket</a>
+          </li>
+          <li>
+            <img src="icons/arrowlink.png" alt="Migrationsverkets webbplats" ><a
+              href="https://www.migrationsverket.se/">Migrationsverket</a>
+          </li>
+          <li>
+            <img src="icons/arrowlink.png" alt="Försäkringskassans webbplats" ><a
+              href="https://www.forsakringskassan.se/">Försäkringskassan</a>
+          </li>
+          <li>
+            <img src="icons/arrowlink.png" alt="Arbetsförmedlingens webbplats" ><a
+              href="https://www.arbetsformedlingen.se/">Arbetsförmedlingen</a>
+          </li>
+          <li>
+            <img src="icons/arrowlink.png" alt="Pensionsmyndighetens webbplats" ><a
+              href="https://www.pensionsmyndigheten.se/">Pensionsmyndigheten</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <nav class="social-menu">
+      <ul aria-label="Sociala länkar">
+        <li><span> Följ oss</span></li>
+        <li>
+          <a href="https://www.instagram.com/" target="_blank"><span class="fa fa-instagram fa-fw"
+              title="instagram.com"><span class="sr-only">Instagram</span></span></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/" target="_blank"><span class="fa fa-facebook-f fa-fw"
+              title="facebook.com"><span class="sr-only">Facebook</span></span></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div>
+      <a href="index.html"><img class="logo" src="icons/logo.svg" alt="Statens Servicenters Logo" ></a>
+    </div>
+    <div class="logoP">
+      <img src="icons/nav.svg" alt="arrow" > E-statsporten: Statens genväg.
+    </div>
+  </footer>
+  <div class="line">© Copyright 2023</div>
+</body>
+
+</html>
