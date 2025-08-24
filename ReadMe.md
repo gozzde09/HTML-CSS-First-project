@@ -1,6 +1,7 @@
 # Myndighetssida – Skolprojekt
 
-Detta är mitt första projekt på Javascript utbildningen. Webbplatsen är en **låtsassida för en myndighet** där användaren kan hitta information och boka tid via en enkel e-ansökningssida.
+Detta är mitt första projekt på JavaScript-utbildningen.
+Webbplatsen är en **låtsassida för en myndighet** där användaren kan hitta information och boka tid via en enkel e-ansökningssida. Tanken är att samla allt på ett ställe, liknande hur invånare i Turkiet använder e-stat-plattformen för myndighetstjänster.
 
 LIVE: https://html-css-first-project-1.onrender.com
 (Iconer kan laddas senare, testa ladda om sidan eller navigera i sidan.)
